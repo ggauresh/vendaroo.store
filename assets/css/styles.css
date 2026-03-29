@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary: #f0c651;
+  --accent: #c94a30;
+  --ink: #1f2328;
+  --muted: #5f6773;
+  --surface: #fdf8e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(240, 198, 81, 0.2), transparent 34%),
+    radial-gradient(circle at 88% 100%, rgba(201, 74, 48, 0.16), transparent 38%),
+    #fffdf7;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: 0.02em;
+}
+
+.brand-chip {
+  border: 1px solid rgba(31, 35, 40, 0.08);
+  background: rgba(255, 255, 255, 0.84);
+  backdrop-filter: blur(6px);
+}
+
+.hero-panel {
+  background: linear-gradient(120deg, #fdf5dc 0%, #fff3eb 100%);
+  border: 1px solid rgba(31, 35, 40, 0.08);
+}
+
+.card-soft {
+  background: #ffffff;
+  border: 1px solid rgba(31, 35, 40, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-soft:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(31, 35, 40, 0.12);
+}
+
+.section-title {
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 70%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  border-radius: 999px;
+}
+
+.kicker {
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+}
+
+.dot-grid {
+  background-image: radial-gradient(rgba(31, 35, 40, 0.14) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.mobile-nav {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.mobile-nav.open {
+  max-height: 360px;
+}
+
+.post-content p {
+  margin: 0.9rem 0;
+  line-height: 1.75;
+}
+
+.post-content h2,
+.post-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.post-content ul {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+  line-height: 1.7;
+}

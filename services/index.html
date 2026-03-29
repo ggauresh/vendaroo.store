@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | Vendaroo</title>
+  <script>
+    tailwind = window.tailwind || {};
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#f0c651',
+            accent: '#c94a30'
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+  <header class="border-b border-black/10 bg-white/90">
+    <div class="mx-auto flex w-[92%] max-w-6xl items-center justify-between py-4">
+      <a href="../index.html" class="text-xl font-semibold">Vendaroo</a>
+      <a href="../enquire/index.html" class="rounded-full bg-primary px-4 py-2 text-sm font-bold">Enquire Now</a>
+    </div>
+  </header>
+
+  <main class="mx-auto my-12 w-[92%] max-w-6xl">
+    <p class="kicker">Services</p>
+    <h1 class="section-title mt-2 text-4xl">Melbourne Vending Services</h1>
+
+    <div class="mt-10 grid gap-6 md:grid-cols-2">
+      <article class="card-soft rounded-2xl p-5">
+        <img src="../assets/Gemini_Generated_Image_jyscukjyscukjysc.png" alt="Installation" class="h-52 w-full rounded-xl object-cover" />
+        <h2 class="mt-4 text-2xl">Vending Machine Installation</h2>
+        <p class="mt-2 text-slate-700">Fast and reliable setup for offices, schools, gyms, and public sites.</p>
+        <a href="vending-machine-installation.html" class="mt-4 inline-block font-semibold text-accent">Read More</a>
+      </article>
+
+      <article class="card-soft rounded-2xl p-5">
+        <img src="../assets/Gemini_Generated_Image_78n3sn78n3sn78n3.png" alt="Healthy snacks" class="h-52 w-full rounded-xl object-cover" />
+        <h2 class="mt-4 text-2xl">Healthy Snack Options</h2>
+        <p class="mt-2 text-slate-700">Nutritious choices with custom product mix and regular restocking.</p>
+        <a href="healthy-snack-options.html" class="mt-4 inline-block font-semibold text-accent">Read More</a>
+      </article>
+    </div>
+  </main>
+
+  <footer class="border-t border-black/10 py-6 text-center text-sm text-slate-600">
+    &copy; <span data-year></span> Vendaroo
+  </footer>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

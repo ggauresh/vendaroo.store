@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Blogs | Vendaroo</title>
+	<script>
+		tailwind = window.tailwind || {};
+		tailwind.config = {
+			theme: {
+				extend: {
+					colors: {
+						primary: '#f0c651',
+						accent: '#c94a30'
+					}
+				}
+			}
+		};
+	</script>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body>
+	<header class="border-b border-black/10 bg-white/90">
+		<div class="mx-auto flex w-[92%] max-w-6xl items-center justify-between py-4">
+			<a href="../index.html" class="text-xl font-semibold">Vendaroo</a>
+			<nav class="hidden gap-6 text-sm font-medium md:flex">
+				<a href="../index.html">Home</a>
+				<a href="../services/index.html">Services</a>
+				<a href="../enquire/index.html">Enquire</a>
+			</nav>
+			<a href="../enquire/index.html" class="rounded-full bg-primary px-4 py-2 text-sm font-bold">Get Started</a>
+		</div>
+	</header>
+
+	<main class="mx-auto my-12 w-[92%] max-w-6xl">
+		<p class="kicker">Blogs</p>
+		<h1 class="section-title mt-2 text-4xl">Latest Vending Insights for Melbourne Workplaces</h1>
+		<p class="mt-6 max-w-3xl text-slate-700">Explore practical ideas around workplace convenience, healthy choices, and the newest vending technology trends.</p>
+
+		<section class="mt-10 grid gap-6 md:grid-cols-3">
+			<article class="card-soft rounded-2xl p-4">
+				<img src="../assets/71d3802b-4d51-495e-891b-a8e614e497ee.png" alt="Blog 1" class="h-44 w-full rounded-xl object-cover" />
+				<h2 class="mt-4 text-2xl">5 Reasons Every Office, Gym, Hospital and Warehouse in Melbourne Should Have a Vending Machine</h2>
+				<a href="office-gym-hospital-warehouse-vending-melbourne.html" class="mt-4 inline-block text-sm font-bold text-accent">Read Article</a>
+			</article>
+
+			<article class="card-soft rounded-2xl p-4">
+				<img src="../assets/Gemini_Generated_Image_4ikvzn4ikvzn4ikv.png" alt="Blog 2" class="h-44 w-full rounded-xl object-cover" />
+				<h2 class="mt-4 text-2xl">Cashless Payments & Tap-and-Go: Essential for Vending Machines in This Decade</h2>
+				<a href="cashless-payments-tap-and-go-vending-melbourne.html" class="mt-4 inline-block text-sm font-bold text-accent">Read Article</a>
+			</article>
+
+			<article class="card-soft rounded-2xl p-4">
+				<img src="../assets/ChatGPT Image Mar 22, 2026, 04_39_36 PM.png" alt="Blog 3" class="h-44 w-full rounded-xl object-cover" />
+				<h2 class="mt-4 text-2xl">Technology & Innovation in Vending Machines: What Melbourne Businesses Need to Know</h2>
+				<a href="technology-innovation-vending-machines-melbourne.html" class="mt-4 inline-block text-sm font-bold text-accent">Read Article</a>
+			</article>
+		</section>
+	</main>
+
+	<footer class="border-t border-black/10 py-6 text-center text-sm text-slate-600">
+		&copy; <span data-year></span> Vendaroo
+	</footer>
+
+	<script src="../assets/js/main.js"></script>
+</body>
+</html>
