@@ -186,3 +186,19 @@ Use these as direction, then refine for CTR and character limits:
 4. Consistent blog publishing with strong internal links
 5. Ongoing measurement and optimization
 
+## Pending Non-Code Tasks (2026-03-31)
+
+1. Set up and optimize Google Business Profile (category, service areas, photos, service descriptions, UTM website link).
+2. Build and clean local citations with consistent NAP details across directories.
+3. Start active review generation and response workflow for all client reviews.
+4. Expand service page copy depth to 600-900 words with unique practical details.
+5. Add local intent depth on locations content (response times, suburb-specific notes).
+6. Finalize conversion-focused enquiry messaging (callback promise, consultation expectations).
+7. Publish 2-4 new blog posts per month based on the 8-12 week content plan.
+8. Create one comparison guide page: how to choose the right vending machine.
+9. Develop case-study pages with measurable outcomes (uptime, staff satisfaction, convenience).
+10. Run Lighthouse mobile audits and implement performance improvements for Core Web Vitals.
+11. Install GA4 and connect Google Search Console, then submit sitemap.
+12. Configure conversion event tracking: click-to-call, form submits, CTA clicks.
+13. Establish monthly reporting for impressions, clicks, top landing pages, and conversion rates.
+
