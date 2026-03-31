@@ -55,7 +55,7 @@ Pages:
 - 3 current blog post pages
 
 Recommendations:
-1. Keep blog slugs short, keyword-focused, and stable.
+1. Keep blog slugs short, keyword-focused, and stable. - done
 2. Add publish date and author name on each post (trust signal).
 3. Add “Related Posts” links in each article.
 4. Add stronger internal links from blogs to service pages and enquiry page.
