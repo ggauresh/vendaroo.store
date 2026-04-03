@@ -12,15 +12,4 @@
   if (yearNode) {
     yearNode.textContent = String(new Date().getFullYear());
   }
-
-  const enquiryForm = document.querySelector('[data-enquiry-form]');
-  const notice = document.querySelector('[data-form-notice]');
-
-  if (enquiryForm && notice) {
-    enquiryForm.addEventListener('submit', (event) => {
-      event.preventDefault();
-      notice.textContent = 'Thanks. Your enquiry has been captured in this demo page.';
-      enquiryForm.reset();
-    });
-  }
 })();
